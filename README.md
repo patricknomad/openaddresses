@@ -47,7 +47,7 @@ npm install
 
 ## Data Download
 Use the `imports.openaddresses.files` configuration option to limit the download to just the OpenAddresses files of interest.
-Refer to the [OpenAddresses data listing]( http://results.openaddresses.io/?runs=all#runs) for file names.
+Refer to the [OpenAddresses data listing](https://batch.openaddresses.io/data) for file names.
 
 ```bash
 npm run download
@@ -120,7 +120,7 @@ The absolute path to a directory where OpenAddresses data is located. The downlo
 * Default: `[]`
 
 An array of OpenAddresses files to be downloaded (full list can be found on the
-[OpenAddresses results site](http://results.openaddresses.io/?runs=all#runs)).
+[OpenAddresses results site](https://batch.openaddresses.io/data)).
 If no files are specified, the full planet data files (11GB+) will be
 downloaded.
 
